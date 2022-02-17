@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+}
+
+.topCover {
+  background-image: url(Image/web-g0d971143a_1920.png);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  position: relative;
+}
+
+.top img {
+  width: 100%;
+  position: relative;
+}
+
+.Iam {
+  color: #ffff00;
+  /* color: goldenrod; */
+  text-align: center;
+  position: relative;
+  font-weight: bold;
+  top: 10%;
+}
+
+.Iam h1 {
+  font-size: 80px;
+}
+
+.Iam p {
+  font-size: 40px;
+}
+
+.Iam #contact {
+  color: white;
+  background-color: #ef4868;
+  width: 180px;
+  border-radius: 10px;
+  padding: 3px;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+.aboutMe {
+  border-top: 3px solid gray;
+  margin: 30px;
+  padding: 20px;
+  border-bottom: 3px solid gray;
+}
+
+.aboutMe h2 {
+  font-weight: bold;
+}
+
+main {
+  background-color: rgb(49, 107, 146);
+}
+
+.portfolio {
+  display: flex;
+}
+
+.box {
+  border-radius: 20px;
+  background-color: white;
+  width: 450px;
+  display: inline-block;
+  margin: 15px 15px 15px 15px;
+  padding: 20px;
+  vertical-align: top;
+  box-shadow: 0 5px 10px 0 rgba(255, 255, 0, 0.3);
+  transition: 0.2s ease-in-out;
+}
+
+.box :hover {
+  color: darkblue;
+}
+
+.box-text h2 {
+  font-weight: bold;
+}
+
+.box-text p span {
+  font-weight: bolder;
+}
+
+.getIntouch {
+  margin: 30px 60px;
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  vertical-align: top;
+  left: 50px;
+  justify-content: space-evenly;
+}
+
+.getIntouch #form {
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.getIntouch #touch {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.getIntouch #topics {
+  height: 25px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.getIntouch input {
+  height: 25px;
+  margin: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.getIntouch input #message {
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.getIntouch #submit {
+  padding: 6px, 6px;
+  width: 80px;
+  height: 30px;
+  background-color: #ffff00;
+  /* color: rgb(49, 107, 146); */
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+
+.getIntouch #line {
+  text-align: center;
+}
+
+#line h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#line img {
+  margin: 10px 35px 10px 35px;
+  width: 300px;
+  height: 340px;
+  position: relative;
+}
+
+.findMe {
+  display: inline-block;
+  color: white;
+}
+
+.social {
+  color: white;
+  font-weight: bold;
+  margin: 40px;
+  font-size: 20px;
+  text-align: end;
+}
+
+.social .logo {
+  background-color: #ffff00;
+  margin: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  width: 100px;
+  border-radius: 8px;
+  float: right;
+  color: black;
+}
+
+.social h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.getIntouch {
+  display: inline-block;
+}
